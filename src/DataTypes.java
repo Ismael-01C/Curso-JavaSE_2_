@@ -10,9 +10,21 @@ public class DataTypes {
         //Tipo de dato Decimal
         //calculos matematicos con mayor presicion
         Double nD = 123.1412;
-        //
+        //calculos matematicos con datos reducios
         float nF = 123.1412F;
         //para diferenciar el tipo de dato Double, se le agrega la F de float al final
 
+        //Declarar tipo de datos sin poner el metodo
+
+        var salary = 1000; //int(tipo de dato entero)
+        //pension 3%
+        var pesion = salary*0.03; //double
+        var totalSalary = salary - pesion;
+        System.out.println(salary);
+        System.out.println(pesion);
+        System.out.println(totalSalary);
+
+        var employeeName = "Ismael Carreño";
+        System.out.println("EMPLOYEE: " + employeeName + " SALARY: " + totalSalary);
     }
 }
