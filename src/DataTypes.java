@@ -14,7 +14,7 @@ public class DataTypes {
         float nF = 123.1412F;
         //para diferenciar el tipo de dato Double, se le agrega la F de float al final
 
-        //Declarar tipo de datos sin poner el metodo
+        //La sentencia var declara una variable, opcionalmente inicializándola con un valor.
 
         var salary = 1000; //int(tipo de dato entero)
         //pension 3%
